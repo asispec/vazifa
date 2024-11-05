@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+body {
+    background-color: #202123;
+    width: 100%;
+    height: 100hv;
+    color: white;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    color: white;
+}
+.d1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.d2 {
+    display: flex;
+}
+.d2:hover {
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(135deg, #232228 0%, #10A37F 129.49%);
+}
+.d2 > p > a {
+    text-decoration: none;
+    color: white;
+}
+.d2 > p {
+    font-size: 30px;
+}
+.d3 > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+.d3 > ul > li {
+    color: white;
+}
+.d3 > ul > li:hover {
+    background: linear-gradient(206.41deg, #232228 0%, rgba(35, 34, 40, 0.5) 32.58%, #10A37F 100%);
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 25px;
+}
+.d4 > button {
+    width: 182px;
+    height: 46px;
+    border-radius: 25px;
+    background-color: #10A37F;
+    color: white;
+    cursor: pointer;
+}
+.d4 > button:hover {
+    transform: scale(1.120);
+}
+.s1 {
+    width: 100%;
+    margin-top: 50px;
+}
+.d5 {
+    width: 100%;
+    height: 470.06px;
+    display: flex;
+}
+.d5 > div > img:hover {
+    transition-duration: 3s;
+    transform: translate(-100px, 0px) scale(1.25);
+}
+.d6 {
+    width: 783px;
+    height: 363px;
+}
+.d6 > h1 {
+    font-family: Manrope;
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.d6 > p {
+    padding-top: 25px;
+    font-family: Manrope;
+    font-size: 18px;
+    text-align: left;
+}
+ .d6 > h1:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d7 > button {
+    margin-top: 25px;
+    width: 386px;
+    height: 74px;
+    background: hsla(165, 82%, 35%, 1);
+    border-radius: 25px;
+}
+.d7 > button:hover {
+    transform: scale(1.120);
+    margin-left: 25px;
+}
+.d8 {
+    display: flex;
+    justify-content: center;
+    padding-top: 125px;
+    font-family: Manrope;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: left;
+}
+.d9 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+.d10 {
+    width: 352px;
+    height: 227px;  
+    border-radius: 10px;
+    border: 1px solid hsla(165, 82%, 35%, 1)   
+}
+.d10 > img {
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.d10 > p {
+    padding-top: 20px;
+    font-family: Manrope;
+    font-size: 23px;
+    text-align: center;
+}
+.d10:hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
+    transform: skew(0deg, 360deg);
+    transition-duration:3s;
+    background-color: black;
+    border: 1px solid black;
+}
+.d11 {
+    padding-top: 30px;
+    width: 100%;
+    height: 394px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.d12 {
+    width: 272px;
+    height: 394px;
+    border-radius: 25px;
+}
+.l1 {
+    background: linear-gradient(210.34deg, rgba(35, 34, 40, 0.8) 0%, #19C37D 154.93%);
+}
+.d12 > img {
+    padding: 40px 0px 20px 30px;
+    font-family: Manrope;
+    font-size: 38px;
+    text-align: left;
+}
+.d12 > p {
+    padding: 0px 0px 20px 30px;
+    font-family: Manrope;
+    font-size: 28px;
+    text-align: left;
+}
+.d12 > .p1  {
+    font-family: Manrope;
+    font-size: 24px;
+    text-align: left;
+    
+}
+.l2 {
+    background: linear-gradient(206.93deg, #232228 0%, #10A37F 129.49%);
+}
+.l3 {
+    background: linear-gradient(213.3deg, rgba(35, 34, 40, 0.8) 28.84%, #19C37D 100%);
+}
+.l4 {
+    background: linear-gradient(206.41deg, #232228 0%, rgba(35, 34, 40, 0.5) 32.58%, #10A37F 100%);
+}
+.l5 {
+    background: linear-gradient(213.3deg, rgba(35, 34, 40, 0.8) 28.84%, #19C37D 100%);
+}
+.d12:hover {
+    transition-duration: 2s;
+    transform: scale(1.3);
+}
+.d13 {
+    margin-top: 100px;
+    width: 100%;
+}
+.d17 {
+    display: flex;
+    justify-content: center;
+}
+
+.d17 > button {
+    width: 300px;
+    height: 56px;
+    border-radius: 10px;
+    background: hsla(165, 82%, 35%, 1);
+    text-align: center;
+}
+.d17 > button:hover {
+    transition-duration: 2s;
+    border-radius: 50%;
+    transform: scale(1.5);
+    width: 200px;
+    height: 25px;
+}
+.d14 {
+    text-align: center;
+}
+.d14 > h1 {
+    font-family: Manrope;
+    font-size: 80px;
+}
+.d14 > p {
+    font-family: Manrope;
+    font-size: 24px;
+}
+.d15 {
+    margin-top: 75px;
+    width: 1480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.d16 {
+    margin-bottom: 25px;
+    width: 352px;
+    height: 250px;
+    border-radius: 25px;
+    background-color    : #fff;
+}
+.d16 > h6 {
+    margin-left: 25px;
+    width: 172px;
+    height: 35px;
+    background-color: #D0E7E1;
+    border-radius: 10px;
+    color: #10A37F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d16 > h1 {
+    font-family: Manrope;
+    font-size: 24px;
+    margin: 15px 0px 15px 25px;
+    color: black;
+    width: 310px;
+    height: 68px;
+}
+.d16 > p {
+    width: 310px;
+    height: 75px;
+    font-family: Manrope;
+    font-size: 19px;
+    color: black;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.d16:hover {
+    transition-duration: 2s;
+    transform: scale(1.150);
+    transition-duration: 2s;
+    background: linear-gradient(213.3deg, rgba(35, 34, 40, 0.8) 28.84%, #19C37D 100%);
+}
+.d18 {
+    width: 100%;
+    height: auto;
+}
+.d19 {
+    width: 100%;
+    height: auto;
+}
+.d19 > h1 {
+    font-family: Manrope;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+.d19 > p {
+    padding-top: 25px;
+    font-family: Manrope;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.d20 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.d21 {
+    margin-bottom: 25px;
+    padding: 10px 0px 0px 10px;
+    width: 464px;
+    height: 266px;
+    background: linear-gradient(#10A37F, #10A37F);
+    border-radius: 10px;
+    transition: background 1s ease;
+}
+.d22 {
+    display: flex;
+    padding-bottom: 10px;
+    transition: background 1s ease;
+}
+.d22 > div > h1 {
+    font-family: Manrope;
+    font-size: 24px;
+
+}
+.d22 > div > p {
+    font-family: Manrope;
+    font-size: 18px;
+
+}
+.d22 > div > h2 {
+    font-family: Manrope;
+    font-size: 22px;
+}
+.d21:hover  {
+    transition: background 1s ease;
+    background: radial-gradient(circle, #f39c12, #e67e22, #e74c3c);
+}
+.d22 > div > h1:hover {
+    transition: background 1s ease;
+    color: #3498db;
+}
+.d22 > div > p:hover {
+    transition: background 1s ease;
+    color: #559AD3;
+}
+.d21 > div > h2:hover {
+    transition: background 1s ease;
+    color: #89f7fe;
+}
